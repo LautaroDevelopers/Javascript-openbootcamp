@@ -1,0 +1,62 @@
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 40px;
+}
+
+.container {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #b9f9b9;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0 2px 5px rgba(0, 0, 0, 0.1));
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 0;
+  text-align: center;
+}
+
+p {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #c9f9c9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0 2px 5px rgba(0, 0, 0, 0.1));
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.dragging {
+  opacity: 0.5;
+  background-color: #b9f9b9;
+}
+
+.image-fantasma {
+  position: absolute;
+  left: -100vw;
+  height: 100px;
+  width: 100px;
+  background-color: #b9f9b9;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0 2px 5px rgba(0, 0, 0, 0.1));
+  margin-bottom: 20px;
+}

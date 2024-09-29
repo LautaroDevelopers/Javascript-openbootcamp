@@ -1,0 +1,11 @@
+// info: Configuración de reglas de ESLint
+
+{
+  "rules": {
+    "eqeqeq": "warn",
+    "strict": "off",
+    "quotes": ["warn", "double"],
+    "semi": ["warn", "never"],
+    "no-dupe-keys": "error"
+  }
+}
